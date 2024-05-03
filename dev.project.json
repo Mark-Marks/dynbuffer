@@ -1,0 +1,23 @@
+{
+    "name": "dynbuffer-dev",
+    "tree": {
+        "$className": "DataModel",
+
+        "ServerScriptService": {
+            "$path": "test/server"
+        },
+
+        "ReplicatedStorage": {
+            "$path": "test/shared",
+            "dynbuffer": {
+                "$path": "lib"
+            }
+        },
+
+        "StarterPlayer": {
+            "StarterPlayerScripts": {
+                "$path": "test/client"
+            }
+        }
+    }
+}
